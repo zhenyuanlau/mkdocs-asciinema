@@ -6,7 +6,7 @@ A Mkdocs Plugin for asciinema player.
 
 Install the plugin using pip:
 
-`pip install mkdocs-asciinema`
+`pip install -i https://test.pypi.org/simple/ mkdocs-asciinema`
 
 Activate the plugin in `mkdocs.yml`:
 
@@ -27,3 +27,7 @@ plugins:
 ```markdown
 ![asciicast](/images/asciinema/tmpzuu_levn-ascii.cast)
 ```
+
+## See also
+
+[ZDGarden Asciinema](https://garden.zhenyuanlau.me/tool/asciinema/)
