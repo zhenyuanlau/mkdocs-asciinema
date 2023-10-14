@@ -6,7 +6,7 @@ A Mkdocs Plugin for asciinema player.
 
 Install the plugin using pip:
 
-`pip install -i https://test.pypi.org/simple/ mkdocs-asciinema`
+`pip install mkdocs-asciinema`
 
 Activate the plugin in `mkdocs.yml`:
 
@@ -19,7 +19,10 @@ extra_javascript:
 
 plugins:
   - search
-  - mkdocs-asciinema
+  - mkdocs-asciinema:
+      speed: "2"
+      theme: "solarized-light"
+      rows: "20"
 ```
 
 ## Usage
